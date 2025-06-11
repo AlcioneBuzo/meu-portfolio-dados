@@ -4,11 +4,11 @@ USE vendas_empresa;
 
 -- Tabela de Clientes
 CREATE TABLE clientes (
-    cliente_id INT PRIMARY KEY AUTO_INCREMENT,
+    cliente_id INT PRIMARY KEY AUTO_INCREMENT, -- cria um numero sequencial automaticamente para cada novo ID.
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE,
     telefone VARCHAR(20),
-    data_cadastro DATE DEFAULT CURRENT_DATE,
+    data_cadastro DATETIME DEFAULT CURRENT_TIMESTAMP, -- vai inserir a data da criação do cadastro automaticamente baseada a data atual do sistema.
     cidade VARCHAR(50),
     estado CHAR(2),
     tipo_cliente ENUM('Pessoa Física', 'Pessoa Jurídica') DEFAULT 'Pessoa Física'
