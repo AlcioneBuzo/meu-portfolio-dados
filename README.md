@@ -1,18 +1,41 @@
-# meu-portfolio-dados
-"Portfólio de projetos em SQL, BI e Data Science"
+# Portfólio de Alcione Buzo 
+## Introduction
 
-# Meu Portfólio em Dados  
+👋  **Welcome to my portfolio!**
+Here I organize my projects by skill. My name is Alcione, graduated in Database, with a focus on BI, Big Data, and Data Science. I have been out of the area for three years and created this portfolio to keep track of my studies.
 
-👋 Olá! Sou Alcione, formada em banco de dados, com ênfase em BI, Big Data e Data Science. Estou há três anos fora da área e criei este portfólio para salvar meus estudos.   
 
-## 🛠️ Habilidades  
-- SQL (consultas, otimização)  
-- Power BI (visualização de dados)  
-- Python (análise básica)  
+**Skills status:**  
+- Excel: ⚡ Refreshing / In progress  
+- SQL: ✅ Completed  
+- Python: ⚡ Refreshing / In progress  
+- Power BI: ⚡ Refreshing / In progress  
 
-## 📂 Projetos 
-- [Exercícios Básicos](exercicios_basicos.sql): Criação de tabelas, inserts, selects, updates, deletes e consultas simples (Perguntas 1 a 5).  
-- [Exercícios Intermediários](exercicios_intermediarios.sql): Joins, funções de agregação, group by, subqueries, order by e limites (Perguntas 6 a 15).  
-- [Exercícios Avançados](exercicios_avancados.sql): Procedures, triggers e funções SQL.   (Perguntas de 16 a 20).
+---
 
- 
+## Estrutura de Projetos / Project Structure
+
+Minha pasta de projetos está organizada por habilidade, seguindo esta ordem:
+
+1. **Excel**  
+   Projetos relacionados a Excel, dashboards, fórmulas e análise de dados.  
+   `./Projetos/Excel`
+
+2. **SQL**  
+   Scripts, queries, procedures, triggers e views de bancos de dados.  
+   `./Projetos/SQL`
+
+3. **Python**  
+   Projetos de automação, análise de dados, scripts e pequenos estudos.  
+   `./Projetos/Python`
+
+4. **Power BI**  
+   Dashboards, relatórios e visualizações interativas.  
+   `./Projetos/PowerBI`
+
+---
+
+##  Contact
+
+- **LinkedIn:** [linkedin.com/in/alcione-buzo](https://www.linkedin.com/in/alcione-buzo/)  
+- **GitHub:** [githu]()
