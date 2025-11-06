@@ -119,3 +119,11 @@ INSERT INTO sale_items (sale_id, product_id, quantity, unit_price, discount) VAL
 (4, 3, 1, 350.00, 0.00),
 (5, 7, 1, 25.00, 0.00),
 (5, 8, 1, 18.50, 0.00);
+
+CREATE TABLE product_log (
+    log_id INT PRIMARY KEY AUTO_INCREMENT,
+    product_id INT,
+    operation VARCHAR(50),
+    log_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (product_id) REFERENCES products(product_id)
+);

@@ -1,3 +1,21 @@
+-- 6. List all customers who have placed more than 5 orders.
+SELECT customer_id, COUNT(order_id) AS total_orders
+FROM orders
+GROUP BY customer_id
+HAVING total_orders > 5;
+
+-- 7. Show the 5 most expensive products.
+SELECT product_id, product_name, price
+FROM products
+ORDER BY price DESC
+LIMIT 5;
+
+-- 8. Get the total quantity sold for each product.
+SELECT product_id, SUM(quantity) AS total_sold
+FROM order_items
+GROUP BY product_id
+ORDER BY total_sold DESC;
+
 -- 9.List all products that have never been sold.
 SELECT p.product_id, p.name
 FROM products p
